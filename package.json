@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test:ui": "cypress open",
+    "test:dev": "cypress open",
     "test": "cypress run"
   },
   "dependencies": {

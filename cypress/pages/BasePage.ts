@@ -11,7 +11,7 @@ export default class {
     return this.treeMenu().find('ul>li.tree-branch');
   }
 
-  inputFormExamples(): Cypress.Chainable<JQuery<HTMLLIElement>> {
+  inputFormExamples(): Cypress.Chainable<JQuery> {
     return this.treeBranches().eq(0).find('ul>li>a');
   }
 }

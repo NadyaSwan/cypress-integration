@@ -14,4 +14,8 @@ export default class {
   inputFormExamples(): Cypress.Chainable<JQuery> {
     return this.treeBranches().eq(0).find('ul>li>a');
   }
+
+  otherExamples(): Cypress.Chainable<JQuery> {
+    return this.treeBranches().eq(6).find('ul>li>a');
+  }
 }
